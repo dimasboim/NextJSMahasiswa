@@ -1,0 +1,15 @@
+#formedit{
+    background-color: aqua;
+}
+
+#formadd{
+    background-color: yellow;
+}
+
+.show{
+    display: inline;
+}
+
+.hide{
+    display: none;
+}
