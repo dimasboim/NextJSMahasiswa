@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 #formedit{
     background-color: aqua;
 }
@@ -8,8 +11,46 @@
 
 .show{
     display: inline;
+ 
 }
 
 .hide{
     display: none;
+}
+
+
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+  }
+  .btn-blue {
+    @apply bg-blue-500 text-white;
+  }
+  .btn-blue:hover {
+    @apply bg-blue-700;
+  }
+
+  button {
+    @apply font-bold py-2 px-4 rounded  bg-blue-500 text-white;
+  }
+ button:hover {
+  @apply bg-blue-700;
+  }
+
+  .text{
+    @apply  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500
+  }
+  h1 {
+    color: #5759f4;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    }
+    
+.box{
+  @apply max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 
+}
+.boxInput{
+  @apply bg-blue-500 !important
 }
