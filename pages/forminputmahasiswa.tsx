@@ -170,17 +170,7 @@ return(
 
   return (
     <div>
-       <ul>
-      <li>
-        <Link href="/jurusan">Jurusan</Link>
-      </li>
-      <li>
-        <Link href="/jurusan/pencarian">Pencarian Jurusan</Link>
-      </li>
-      <li>
-        <Link href="/krs">KRS</Link>
-      </li>
-    </ul>
+      
      <button id="btnadd" onClick={handleAdd} className={statebutonadd}>add</button>
     
        <form id="formadd" className={stateadd} onSubmit={handleSubmitAdd} >

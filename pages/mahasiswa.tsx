@@ -1,11 +1,16 @@
  
+import Navbar from './Navbar'
 import FormMahasiswa from './forminputmahasiswa'
 
 export default function ProfileForm() {
   return (
-   
-    <FormMahasiswa />
+   <div>
+    <Navbar/>
+    <br/>
+<FormMahasiswa />
 
+   </div>
+    
     )
  
 }
