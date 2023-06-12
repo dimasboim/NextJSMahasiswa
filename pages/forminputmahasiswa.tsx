@@ -239,8 +239,8 @@ return(
         </tr>
             </tbody>
           </table>
-          <input type="submit" />
-          <input type="button" value="cancel" onClick={handleCancelEdit} />
+          <input type="submit" className="btn btn-blue"  />
+          <input type="button" value="cancel" onClick={handleCancelEdit} className="btn btn-blue"  />
           </form>  
         <br/>
         <br/>
